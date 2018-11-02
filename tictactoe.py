@@ -1,12 +1,12 @@
 import tkinter as tk
 from tictactoecore import TicTacToeCore
 
-import winsound         # for sound
+import winsound
 
 def beep(freq, dur):
     winsound.Beep(freq, dur)
 
-G_SIZE = 10
+G_SIZE = 12
 
 class TicTacToe:
     def __init__(self, size):
